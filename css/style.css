@@ -1,0 +1,270 @@
+.top-bar {
+    background-color: black;
+}
+
+#header {
+    height: 600px;
+    background: url("../img/hair-model2.jpg");
+    max-width: 1920px;
+}
+
+.flex-container {
+    padding: 0x 0px 0px 0px;
+    max-width: 1200px;
+}
+
+.flex-container img {
+    max-height: 100px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.menu_wrapper {
+    list-style-type: none; /* removes the bullets */
+}
+
+.menu_wrapper a {
+    color: white;
+    font-size: 1.3em;
+    margin-left: 20px;
+}
+
+.contact-wrapper h1 {
+    color: purple;
+}
+
+.menu_wrapper a:hover {
+    color: #990099;
+    text-decoration: none;
+}
+
+.content-card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    width: 300px;
+    margin: 0px 50px 50px 50px;
+    transition: 0.3s;
+}
+
+.content-card:hover {
+    box-shadow: 0 1px 6px 2px rgb(153, 0, 153);
+}
+
+#card-header {
+    padding: 5px 0px 1px 15px;
+    background-color: #FFFFFF;
+}
+
+.content-card img {
+    max-width: 300px;
+}
+
+.cards-container {
+    display: flex;
+    justify-content:center;
+    padding-top: 50px;
+    flex-wrap: wrap;
+    background-color: #DCDCDC;
+}
+
+.cards-container a {
+    color: black;
+}
+
+.cards-container a:hover {
+    text-decoration: none;
+}
+
+.contact-section {
+    background-color: ##FDFEFE;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0 50px 0;
+}
+
+.contact-section h1, .faq-section h1 {
+    padding: 0px 0px 20px 0px;
+}
+
+.contact-wrapper {
+    width: 1000px; /*items do not wrap because of fix width! smaller width for smaller devices*/
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contact-form {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-form label {
+    margin: 10px 0 0 0;
+    max-width: 1200px;
+}
+
+.contact-form input, textarea {
+    width: 500px;
+}
+
+.working-hours td {
+    border: 1px solid black;
+    margin: 50px 0 0 0;
+}
+
+.working-hours {
+    line-height: 2;
+    margin-top: 15px;
+}
+
+.working-hours thead {
+    color: #ffffff;
+    background-color: #990099;
+    font-weight: bold;
+    padding-left: 20px;
+}
+
+td {
+    padding: 5px 30px 5px 30px;
+}
+
+#send-btn {
+    width: 90px;
+    background-color: #990099;
+    color: #ffffff;
+    margin-top: 20px;
+}
+.card-header { /* bootstrap card header class */
+    background-color: white;
+}
+.card-header:hover { /* bootstrap card header class */
+    background-color: #A9A9A9;
+
+}
+
+.card-header button {  /* bootstrap card header class */
+    color: #000000;
+}
+
+.card-header button:hover {  /* bootstrap card header class */
+    text-decoration: none;
+    color: #990099;
+    font-weight: bold;
+}
+
+.faq-section {
+    background-color: #F5F5F5;
+    padding: 50px 0 50px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 1px solid #DCDCDC;
+}
+
+.collapse-section {
+    display: flex;
+    justify-content: center;
+    width: 60%;
+}
+
+#accordion {
+    width: 100%;
+}
+
+#checkbox-agreement {
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: baseline;
+    width: 500px;
+}
+
+#checkbox-agreement input {
+    width: 30px;
+}
+
+.footer-section {
+    color: #FFFFFF;
+    padding: 20px 0 20px 0;
+    background: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-wrapper {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#footer-logo img {
+    height: 150px;
+}
+
+.item-1 {
+    grid-area: header;
+}
+
+.item-a {
+    grid-area: main;
+}
+
+.item-b {
+    grid-area: sidebar;
+}
+
+.item-c {
+    grid-area: middle;
+}
+
+.item-d {
+    grid-area: footer;
+}
+
+.item-e {
+    grid-area: futer;
+}
+
+.nav-grid   {
+    display: grid;
+    grid-template-columns: 70px 50px auto;
+    grid-template-rows: 32px 30px 50px;
+    grid-template-areas:
+        "header header header"
+        "main sidebar middle"
+        "footer futer ."
+}
+
+.footer-address p, .nav-grid a, .footer-contact p, .foot-wrapper a, .foot-wrapper p {
+    color: #808080;
+}
+
+.foot-section {
+    background: #000000;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.foot-wrapper {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    opacity: 60%;
+}
+
+.foot-first a:nth-child(2) {
+    margin-left: 30px;
+}
+
+.foot-last {
+    margin-left: auto;
+}

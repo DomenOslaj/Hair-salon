@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hair Salon</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+</head>
+
+
+<body>
+    <header id="header">
+        <!--navigation-->
+
+        <ul class="top-bar">
+            <div class="flex-container container">
+                <a href="#">
+                    <img src="img/navbar-logo.jpg">
+                </a>
+                <div class="menu_wrapper container">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">TEAM</a></li>
+                    <li><a href="#">GALLERY</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                </div>
+            </div>
+        </ul>
+        <!--end-navigation-->
+
+    </header>
+
+    <!--main section-->
+    <main>
+        <div class="content-wrapper">
+
+            <div class="cards-container">
+                <!--first-card-->
+                <a href="#">
+                    <div class="content-card">
+
+                        <div id="card-header">
+                                <h3>Cutting</h3>
+                                <p>Lorem ipsum</p>
+                        </div>
+                        <img src="img/hair-cutting.jpg" alt="Avatar">
+                    </div>
+                </a>
+                <!--second-card-->
+                <a href="#">
+                    <div class="content-card">
+
+                        <div id="card-header">
+                                <h3>Cleaning</h3>
+                                <p>Lorem ipsum</p>
+                        </div>
+                        <img src="img/hair-cleaning.jpg" alt="Avatar">
+                    </div>
+                </a>
+                <!--third-card-->
+                <a href="#">
+                    <div class="content-card">
+
+                        <div id="card-header">
+                                <h3>Coloring</h3>
+                                <p>Lorem ipsum</p>
+                        </div>
+                        <img src="img/hair-coloring.jpg" alt="Avatar">
+                    </div>
+                </a>
+                <!--fourth-card-->
+                <a href="#">
+                    <div class="content-card">
+
+                        <div id="card-header">
+                                <h3>Styling</h3>
+                                <p>Lorem ipsum</p>
+                        </div>
+                        <img src="img/hair-styling.jpg" alt="Avatar">
+                   </div>
+                </a>
+            </div> <!--end-cards-container-->
+
+            <div class="contact-section">
+                <h1>CONTACT US</h1>
+                <div class="contact-wrapper">
+                    <div class="contact-form">
+                        <label for="fullname">Full name:</label>
+                        <input type="text" id="fullname" name="fullname">
+
+                        <label for="phone-numb">Phone number:</label>
+                        <input type="number" id="phone-numb" name="phone-number">
+
+                        <label for="date">Date:</label>
+                        <input type="date" id="date" name="date">
+
+                        <label for="othr">Message:</label>
+                        <textarea id="othr" name="othr" rows="8" cols="60"></textarea>
+
+                        <div id="checkbox-agreement">
+                            <input type="checkbox" id="agreement" name="agreement1" value="Agree">
+                            <label for="agreement"> I agree to the terms and conditions</label>
+                        </div>
+
+                        <input id="send-btn" type="submit" value="Send">
+                    </div>
+
+
+                    <!--working-hours-table-->
+                    <div class="working-hours">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <td>Day</td>
+                                    <td>Working hours</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Monday</td>
+                                    <td>8:00 - 16:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Tuesday</td>
+                                    <td>8:00 - 16:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Whednesday</td>
+                                    <td>8:00 - 16:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>10:00 - 20:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Thursday</td>
+                                    <td>8:00 - 16:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Friday</td>
+                                    <td>13:00 - 16:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Saturday</td>
+                                    <td>8:00 - 16:00</td>
+                                </tr>
+                                <tr>
+                                    <td>Sunday</td>
+                                    <td>closed</td>
+                                </tr>
+
+                            </tbody>
+
+                        </table>
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+            <div class="faq-section">
+                <h1>FAQ</h1>
+            <!--bootstrap-collapse-->
+                <div class="collapse-section">
+                    <div id="accordion">
+                        <div class="card">
+                            <div class="card-header" id="headingOne">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                     Do you have a gift certificate?
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+                                <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingTwo">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+                                     Can I bring my pet along?
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+                                <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingThree">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                     What awards did you receive so far?
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+                                <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card">
+                            <div class="card-header" id="headingFour">
+                                <h5 class="mb-0">
+                                    <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                     Another question
+                                    </button>
+                                </h5>
+                            </div>
+
+                            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+                                <div class="card-body">
+                                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div> <!--end collapse-section-->
+            </div> <!--end-faq-section-->
+        </div> <!--end-content-wrapper-->
+
+    </main>
+    <!--end-main-section-->
+
+    <footer>
+        <div class="footer-section">
+            <div class="footer-wrapper">
+                <a href="#" id="footer-logo">
+                    <img src="img/navbar-logo.jpg">
+                </a>
+
+
+                <div class="nav-grid">
+                    <h5 class="item-1">SITE MAP</h5>
+                    <a href="#" class="item-a">
+                        Home
+                    </a>
+                    <a href="#" class="item-b">
+                        Team
+                    </a>
+                    <a href="#"class="item-c">
+                        Gallery
+                    </a>
+                    <a href="#"class="item-d">
+                        Contact
+                    </a>
+                    <a href="#"class="item-e">
+                        About
+                    </a>
+                </div>
+                <div class="footer-address">
+                    <h5>ADDRESS</h5>
+                    <p>Hair Salon Venice</p>
+                    <p>Slovenska ulica 12</p>
+                    <p>1000 Ljubljana</p>
+                </div>
+                <div class="footer-contact">
+                    <h5>CONTACT</h5>
+                    <p>Email: info@venice.si</p>
+                    <p>Phone: 00386 31 111 111</p>
+                </div>
+            </div>
+        </div>
+        <div class="foot-section">
+            <div class="foot-wrapper">
+                <div class="foot-first">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">User Agreement</a>
+                </div>
+                <div class="foot-last">
+                    <p>© 2014-2020 Venice, Kranjski Janez s.p. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+
+</html>
